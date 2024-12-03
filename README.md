@@ -22,7 +22,7 @@ Chức năng của website thương mại điện tử bán ô tô bao gồm:
 + Quản lý thống kê doanh thu
 + Xử lý thanh toán
 
-Ngôn ngữ lập trình: PHP
-Font-end: Framework CSS Bootstrap
-Back-end: Framework Laravel
++ Ngôn ngữ lập trình: PHP
++ Font-end: Framework CSS Bootstrap
++ Back-end: Framework Laravel
 
