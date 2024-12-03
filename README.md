@@ -24,6 +24,7 @@ Chức năng của website thương mại điện tử bán ô tô bao gồm:
 
 Các công cụ sử dụng:
 + XAMPP - PhpMyAdmin
++ Composer
 + Ngôn ngữ lập trình: PHP
 + Font-end: Framework CSS Bootstrap
 + Back-end: Framework Laravel
