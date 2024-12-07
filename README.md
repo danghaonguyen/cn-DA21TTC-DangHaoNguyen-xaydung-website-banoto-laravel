@@ -14,6 +14,7 @@ Một website thương mại điện tử bán ô tô bao gồm các trang như 
 + Trang Sản phẩm
 + Trang Dịch vụ (bảo hành, phụ tùng - phụ kiện xe, đăng ký lái thử, trả góp, dự toán chi phí)
 + Trang Tin tức
++ Trang Quản trị viên
 
 Chức năng của website thương mại điện tử bán ô tô bao gồm:
 + Quản lý đăng nhập, đăng ký
