@@ -46,18 +46,18 @@ Các công cụ sử dụng:
 3. Tải toàn bộ source về
 4. Mở XAMPP => Chạy Apache và MySQL (Nếu báo lỗi hãy đổi port)
 5. Mở Visual Studio Code, mở Terminal (Ctrl + Shift + `)
-6. Gõ lệnh:
-     PS C:\xampp\htdocs\DoAnCN\
-   
+6. 
+-> PS C:\xampp\htdocs\DoAnCN\
+   Gõ lệnh:
    => cd mylaravel
    
    =>   PS C:\xampp\htdocs\DoAnCN\mylaravel
 
-7. Run chạy chương trình:
+8. Run chạy chương trình:
 
    => php artisan serve
 
-8. Click vào đường dẫn của trang web:
+9. Click vào đường dẫn của trang web:
 
    => http://127.0.0.1:8000
    
