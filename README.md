@@ -57,7 +57,7 @@ Các công cụ sử dụng:
 
    => php artisan serve
 
-8. Click vào đường dẫn của trang web:
+8. Sau khi chạy chương trình thành công
 
    => Sẽ xuất hiện đường dẫn: http://127.0.0.1:8000
    
