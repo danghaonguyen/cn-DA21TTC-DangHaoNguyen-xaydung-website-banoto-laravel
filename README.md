@@ -8,7 +8,7 @@ Mã lớp: DA21TTC
 
 Mã số sinh viên: 110121179
 
-Một website thương mại điện tử bán ô tô bao gồm các trang như sau:
+Website  bán ô tô bao gồm các trang như sau:
 + Trang chính
 + Trang Đăng nhập, đăng ký
 + Trang Sản phẩm
