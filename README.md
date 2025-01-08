@@ -32,3 +32,32 @@ Các công cụ sử dụng:
 + Back-end: Framework Laravel
 + Cơ sở dữ liệu: MySQL
 
+--------------------------------------------------------------------
+1. Tải Composer tại đây:
+   
+   https://getcomposer.org/download/
+
+--------------------------------------------------------------------
+2. Tải XAMPP tại đây:
+   
+   https://www.apachefriends.org/download.html
+
+--------------------------------------------------------------------
+3. Tải toàn bộ source về
+4. Mở XAMPP => Chạy Apache và MySQL (Nếu báo lỗi hãy đổi port)
+5. Mở Visual Studio Code, mở Terminal (Ctrl + Shift + ~)
+6. Gõ lệnh:
+     PS C:\xampp\htdocs\DoAnCN\
+   
+   => cd mylaravel
+   
+   =>   PS C:\xampp\htdocs\DoAnCN\mylaravel
+
+7. Run chạy chương trình:
+
+   => php artisan serve
+
+8. Click vào đường dẫn của trang web:
+
+   => [http://127.0.0.1:8000]
+   
