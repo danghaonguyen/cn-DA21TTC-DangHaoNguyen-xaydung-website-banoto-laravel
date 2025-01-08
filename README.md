@@ -45,7 +45,7 @@ Các công cụ sử dụng:
 --------------------------------------------------------------------
 3. Tải toàn bộ source về
 4. Mở XAMPP => Chạy Apache và MySQL (Nếu báo lỗi hãy đổi port)
-5. Mở Visual Studio Code, mở Terminal (Ctrl + Shift + ~)
+5. Mở Visual Studio Code, mở Terminal (Ctrl + Shift + `)
 6. Gõ lệnh:
      PS C:\xampp\htdocs\DoAnCN\
    
