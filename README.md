@@ -59,5 +59,5 @@ Các công cụ sử dụng:
 
 8. Click vào đường dẫn của trang web:
 
-   => [http://127.0.0.1:8000]
+   => http://127.0.0.1:8000
    
