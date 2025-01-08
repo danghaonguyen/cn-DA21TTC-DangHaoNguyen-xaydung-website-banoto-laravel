@@ -53,11 +53,11 @@ Các công cụ sử dụng:
    
    => PS C:\xampp\htdocs\DoAnCN\mylaravel>
 
-8. Run chạy chương trình:
+7. Run chạy chương trình:
 
    => php artisan serve
 
-9. Click vào đường dẫn của trang web:
+8. Click vào đường dẫn của trang web:
 
    => Sẽ xuất hiện đường dẫn: http://127.0.0.1:8000
    
