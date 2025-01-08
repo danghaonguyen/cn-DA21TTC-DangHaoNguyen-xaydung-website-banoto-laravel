@@ -59,5 +59,5 @@ Các công cụ sử dụng:
 
 9. Click vào đường dẫn của trang web:
 
-   => http://127.0.0.1:8000
+   => Sẽ xuất hiện đường dẫn: http://127.0.0.1:8000
    
