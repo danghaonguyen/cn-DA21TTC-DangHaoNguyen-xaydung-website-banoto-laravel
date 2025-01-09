@@ -1,0 +1,39 @@
+.navbar-brand {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+}
+
+.navbar-brand i {
+    margin-right: 8px; /* Khoảng cách giữa biểu tượng và chữ */
+    font-size: 24px; /* Kích thước biểu tượng */
+    color: #333; /* Màu của biểu tượng, có thể đổi thành màu khác */
+}
+
+.navbar-brand:hover {
+    color: #e60000;
+}
+
+.navbar-brand:hover i {
+    color: #e60000; /* Thay đổi màu biểu tượng khi hover */
+}
+
+.mb-4 {
+    position: relative; /* Để sử dụng position cho đường kẻ */
+    font-size: 2.5rem; /* Kích thước chữ lớn hơn */
+    font-weight: bold; /* Đặt chữ in đậm */
+    color: #333; /* Màu chữ */
+    text-transform: uppercase; /* Chữ in hoa */
+    letter-spacing: 1px; /* Khoảng cách giữa các chữ */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+    width: 50%; /* Chiều rộng của đường kẻ - điều chỉnh ở đây */
+    margin: 10px auto; /* Căn giữa đường kẻ và tạo khoảng cách */
+}
+
+
+
