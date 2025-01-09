@@ -1,0 +1,133 @@
+.card-img-top {
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Chuyển đổi mượt mà */
+    transform-style: preserve-3d;
+    perspective: 1000px; /* Tạo hiệu ứng sâu */
+    width: 100%; /* Chiều rộng 100% để vừa với thẻ */
+    height: 150px; /* Chiều cao cố định */
+    object-fit: cover; /* Cắt hình ảnh để giữ tỷ lệ mà không bị méo */
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1) translateY(-10px);  /* Phóng to và di chuyển từ dưới lên */
+}
+
+
+.card {
+    border: none; /* Bỏ khung border xung quanh thẻ card */
+    box-shadow: none; /* Loại bỏ hiệu ứng đổ bóng mặc định nếu có */
+}
+
+
+.custom-card-footer {
+    padding: 10px; /* Thay đổi giá trị theo nhu cầu */
+    margin-top: -10px; /* Thay đổi giá trị để giảm khoảng cách với hình ảnh */
+}
+
+/*Hiện bảng nhỏ cho các hình ảnh sản phẩm */
+
+/* Ẩn tooltip mặc định */
+.tooltip {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 70%; /* Đẩy tooltip sang bên phải ngoài ảnh */
+    transform: translateY(-50%); /* Đảm bảo tooltip căn giữa theo chiều dọc */
+    background-color: rgba(0, 0, 0, 0.7); /* Màu nền tooltip */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 10;
+    width: 200px; /* Kích thước tooltip */
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.3s; /* Hiệu ứng mờ dần */
+}
+
+/* Hiển thị tooltip khi hover vào ảnh */
+.card:hover .tooltip {
+    display: block;
+    opacity: 1;
+}
+
+/* Đảm bảo ảnh không bị che khuất bởi tooltip */
+.card {
+    position: relative;
+    overflow: visible; /* Cho phép tooltip xuất hiện ngoài vùng ảnh */
+}
+
+
+/* service3.blade.php */
+/* Chỉ áp dụng cho trang có class service3 */
+.deposit-form .form {
+    max-width: 400px; /* Giảm chiều rộng của form */
+    margin: 0 auto;
+    padding: 15px; /* Giảm padding */
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #ccc; /* Thêm border cho form */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Thêm border và padding cho container bao quanh form */
+.deposit-form .form-custom{
+    border: 3px solid gray; /* Đặt border cho container */
+    padding: 20px;
+    border-radius: 15px; /* Góc bo tròn cho container */
+    background-color: #f9f9f9; /* Màu nền nhẹ cho container */
+    margin-top: 20px;
+    margin-bottom: 200px;
+    width: 100%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.deposit-form form h2 {
+    font-weight: bold;
+    font-size: 20px; /* Giảm kích thước font tiêu đề */
+    color: #333;
+}
+
+.deposit-form form .form-group {
+    margin-bottom: 20px; /* Giảm khoảng cách giữa các trường */
+}
+
+.deposit-form label {
+    font-size: 16px; /* Giảm kích thước font label */
+    color: #555;
+    margin-top: 10px;
+    margin: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.deposit-form .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px; /* Giảm padding trong các input */
+    font-size: 14px; /* Giảm kích thước font trong các input */
+    width: 100%;
+}
+
+.deposit-form form .form-control:focus {
+    border-color: #e60000;
+    box-shadow: 0 0 5px #e60000;
+}
+
+ .btn-custom {
+    background-color: #e60000;
+    color: white;
+    font-size: 14px; /* Giảm kích thước font button */
+    padding: 10px; /* Giảm padding của button */
+   
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.deposit-form form .btn-custom:hover {
+    background-color: #e60000;
+}
+
+

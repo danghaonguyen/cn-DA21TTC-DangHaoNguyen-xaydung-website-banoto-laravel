@@ -1,0 +1,398 @@
+
+/* service3.blade.php */
+/* Chỉ áp dụng cho trang có class service3 */
+.test-drive .form {
+    max-width: 400px; /* Giảm chiều rộng của form */
+    margin: 0 auto;
+    padding: 15px; /* Giảm padding */
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #ccc; /* Thêm border cho form */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Thêm border và padding cho container bao quanh form */
+.test-drive .form-custom{
+    border: 3px solid gray; /* Đặt border cho container */
+    padding: 20px;
+    border-radius: 15px; /* Góc bo tròn cho container */
+    background-color: #f9f9f9; /* Màu nền nhẹ cho container */
+    margin-top: 20px;
+    margin-bottom: 200px;
+    width: 100%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.test-drive form h2 {
+    font-weight: bold;
+    font-size: 20px; /* Giảm kích thước font tiêu đề */
+    color: #333;
+}
+
+.test-drive form .form-group {
+    margin-bottom: 20px; /* Giảm khoảng cách giữa các trường */
+}
+
+.test-drive label {
+    font-size: 16px; /* Giảm kích thước font label */
+    color: #555;
+    margin-top: 10px;
+    margin: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.test-drive .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px; /* Giảm padding trong các input */
+    font-size: 14px; /* Giảm kích thước font trong các input */
+    width: 100%;
+}
+
+.test-drive form .form-control:focus {
+    border-color: #e60000;
+    box-shadow: 0 0 5px #e60000;
+}
+
+ .btn-custom {
+    background-color: #e60000;
+    color: white;
+    font-size: 14px; /* Giảm kích thước font button */
+    padding: 10px; /* Giảm padding của button */
+   
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.test-drive form .btn-custom:hover {
+    background-color:white;
+    color: red;
+}   
+
+form .btn-custom:hover {
+    background-color:white;
+    color: red;
+}   
+
+.service {
+    min-height: 700px;
+}
+
+.test-drive {
+    min-height: 700px;
+}
+
+.installment {
+    min-height: 700px;
+}
+
+.cost-estimation {
+    min-height: 700px;
+}
+
+
+/* accessories.blade.php (Trang phụ tùng và phụ kiện)*/
+/* Tab menu */
+.nav-tabs {
+    border-bottom: 2px solid #898480e2;
+}
+
+.nav-tabs .nav-link {
+    color: #727070;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #e60000;
+    color: white;
+    border-color: #e60000;
+}
+
+/* Table styling */
+.table th, .table td {
+    text-align: center;
+}
+
+.table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+
+
+
+/* installment.blade.php (Trang Trả góp) */
+/* Chia layout thành 2 cột */
+.installment .form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Khoảng cách giữa các cột */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Cột chứa form */
+.installment .form-container form {
+    width: 55%; /* Chiếm 65% chiều rộng */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Cột chứa thông tin bên phải */
+.installment .form-right {
+    width: 30%; /* Chiếm 30% chiều rộng */
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Flex item chiếm phần còn lại */
+}
+
+/* Thiết lập lại phần container bao quanh form */
+.installment .form-custom {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    width: 100%; /* Đảm bảo container bao quanh form chiếm 100% chiều rộng */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Thêm style cho các phần tử con trong form */
+.installment form h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+
+.installment form .form-group {
+    margin-bottom: 20px;
+}
+
+.installment label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.installment .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.installment form .form-control:focus {
+    border-color: #e60000;
+    box-shadow: 0 0 5px #e60000;
+}
+
+/* Style cho phần thông tin bên phải */
+.installment .form-right h4 {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.installment .form-right p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* Style cho các cột thông tin */
+.installment .form-bottom {
+    margin-bottom: 30px;
+}
+
+.installment .form-bottom hr {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+
+/* Các bảng row , form-bottom của service4.blade.php */
+
+.row {
+    margin-bottom: 20px;
+}
+
+
+.form-bottom {
+    border: 2px solid #ddd; /* Thêm border cho các cột */
+    padding: 15px; /* Khoảng cách giữa nội dung và viền */
+    margin-bottom: 15px; /* Khoảng cách dưới mỗi cột */
+    border-radius: 5px; /* Viền góc tròn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Đảm bảo các cột có cùng chiều cao */
+   
+}
+
+.form-bottom h4 {
+
+    text-align: center;
+}
+
+.form-bottom p {
+
+    line-height: 2.0;
+    padding: 14px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.service.form- p {
+    
+    text-align: justify;
+}
+
+.btn-custom{
+    border-radius: 5px;
+}
+
+
+
+
+/* cost-estimation.blade.php (Trang Dự toán chi phí) */
+/* Chỉ áp dụng cho trang có class service5 */
+/* Cost Estimation Form */
+/* Container bao quanh form */
+.cost-estimation .form-custom{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%; /* Giới hạn chiều rộng container */
+    max-width: 1000px; /* Giới hạn chiều rộng tối đa */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Tiêu đề form */
+.cost-estimation form h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Các trường trong form */
+.cost-estimation form .form-group {
+    margin-bottom: 20px;
+}
+
+/* Label cho các trường */
+.cost-estimation label {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    margin: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input fields */
+.cost-estimation .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Hiệu ứng khi input được chọn */
+.cost-estimation form .form-control:focus {
+    border-color: #e60000;
+    box-shadow: 0 0 5px #e60000;
+}
+
+/* Layout 2 cột (form và phần thông tin bên phải) */
+.cost-estimation .form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Form chính chiếm 50% chiều rộng */
+.cost-estimation .form-container form {
+    width: 48%; /* Giảm width xuống một chút để tạo khoảng cách */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cost-estimation .form-control:focus {
+
+    border-color: #e60000;
+    box-shadow: 0 0 5px #e60000;
+}
+
+
+/* Phần thông tin bên phải chiếm 50% chiều rộng */
+.cost-estimation .form-right {
+    width: 108%; /* Phần bên phải chiếm 48% chiều rộng */
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+ 
+ 
+}
+
+/* Tiêu đề phần bên phải */
+.cost-estimation .form-right h4 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Đoạn văn bản phần bên phải */
+.cost-estimation .form-right p {
+    margin-bottom: 15px;
+    text-align: center  ;
+    font-size: 18px;
+}
+/* Hiển thị bảng kết quả */
+.result {
+    margin-top: 30px;
+}
+
+.result table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.result table th, .result table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.result table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.result .text-muted {
+    font-size: 14px;
+    color: #777;
+}
+
+.text-danger {
+    color: red;
+}
+
