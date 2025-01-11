@@ -1,0 +1,57 @@
+/* CSS for Centered Registration Form */
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.register-form {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px; /* Gỉảm chiều rộng form */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-color: #e60000;
+    background-color: #e60000;
+}
+
+.form-control:focus {
+    border-color: #e60000;
+    box-shadow: 0 0 5px #e60000;
+}

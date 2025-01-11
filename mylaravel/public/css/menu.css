@@ -1,0 +1,30 @@
+.nav-link {
+    color: #000; /* Màu chữ mặc định */
+    transition: color 0.3s, background-color 0.3s; /* Hiệu ứng chuyển màu cho cả chữ và nền */
+}
+
+.nav-link:hover {
+    color: #fff; /* Màu chữ khi hover */
+    background-color: #e60000; /* Màu nền khi hover */
+    border-radius: 6px; /* Bo góc cho nền */
+}
+
+/* Màu nền cho liên kết được nhấp */
+.nav-link.active {
+    color: #fff; /* Màu chữ khi đang hoạt động */
+    background-color: #e60000; /* Màu nền khi đang hoạt động */
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block; /* Hiển thị menu dropdown khi hover */
+}
+
+.dropdown-menu {
+    display: none; /* Ẩn các dropdown menu theo mặc định */
+}
+
+.dropdown-menu.show {
+    display: block; /* Hiển thị dropdown khi có lớp 'show' */
+}
+
