@@ -23,8 +23,9 @@ Chức năng của website thương mại điện tử bán ô tô bao gồm:
 + Quản lý sản phẩm (thêm, xóa, sửa/ cập nhật cho các thông tin của sản phẩm)
 + Quản lý đơn hàng
 + Quản lý bài viết
-+ Quản lý thống kê doanh thu
++ Quản lý thống kê doanh thu bằng biểu đồ
 + Thanh toán (đặt cọc, trả góp,...)
++ Tạo lịch đăng ký lái thử xe và gửi qua gmail cho khách hàng.
 
 Các công cụ sử dụng:
 + XAMPP - PhpMyAdmin
